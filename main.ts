@@ -12,8 +12,8 @@ namespace TestDummy {
      * Does a thing
      */
 	//% group="Gameplay"
-    //% block="num %a"
-    export function f(a: number) {
+    //% block=""
+    export function f(a: () => void) {
         return a
     }
 }
